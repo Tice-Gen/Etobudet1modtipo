@@ -1,0 +1,3 @@
+displayName = The Vaticination of Catastrophe
+author = OXY
+version = 0.3.6

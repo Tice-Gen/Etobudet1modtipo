@@ -1,0 +1,9 @@
+The world of Terraria is full of new threats. Bosses, projectiles, and, of course, new items can suddenly change the course of battle. Sometimes it feels like the very disaster itself is watching you.
+
+0.3.4  -- The biggest update for now!
+
+Welcome to AniseForest, where an incredible adventure awaits you!
+
+0.3.5 -- Major visual improvements! A bunch of weapons have been added and some textures have been improved/changed. Basic bug fixes.
+
+0.3.6 -- Added some new items and improved visual effects in MistyCave. Reworking and improving existing content. Some old textures have been changed and revorked.

@@ -1,0 +1,65 @@
+﻿using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using Etobudet1modtipo.Projectiles;
+using System.Collections.Generic;
+using Microsoft.Xna.Framework;
+using System;
+
+namespace Etobudet1modtipo.items
+{
+    public class StarAdamantiteYoyo : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+            ItemID.Sets.Yoyo[Item.type] = true;
+        }
+
+        public override void SetDefaults()
+        {
+            Item.damage = 86;
+            Item.DamageType = DamageClass.Melee;
+            Item.width = 32;
+            Item.height = 32;
+            Item.useTime = 25;
+            Item.useAnimation = 25;
+            Item.useStyle = ItemUseStyleID.Shoot;
+            Item.knockBack = 4f;
+            Item.value = Item.buyPrice(gold: 8);
+            Item.rare = ItemRarityID.LightRed;
+            Item.UseSound = SoundID.Item1;
+            Item.autoReuse = true;
+            Item.noUseGraphic = true;
+            Item.noMelee = true;
+            Item.channel = true;
+            Item.shoot = ModContent.ProjectileType<AdamantiteYoyoProj>();
+            Item.shootSpeed = 16f;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.AdamantiteBar, 16)
+                .AddIngredient(ItemID.SoulofMight, 8)
+                .AddIngredient(ItemID.SoulofSight, 8)
+                .AddIngredient(ItemID.SoulofFright, 8)
+                .AddTile(TileID.MythrilAnvil)
+                .Register();
+        }
+
+        public override void ModifyTooltips(List<TooltipLine> tooltips)
+        {
+            tooltips.Add(new TooltipLine(Mod, "Description", Terraria.Localization.Language.GetTextValue("Spinning shards appear around the yoyo over time.\nRelease the attack button to launch stored shards at enemies.\nMore shards increase flight damage but reduce spinning damage.\nStrongly pierces armor.")));
+            int damageIndex = tooltips.FindIndex(t => t.Name == "Damage");
+            TooltipLine orbitalLine = new TooltipLine(Mod, "OrbitalYoyoTag", "-Orbital Yoyo-");
+            float wave = (float)((Math.Sin(Main.GlobalTimeWrappedHourly * 2f) + 1.0) * 0.5);
+            orbitalLine.OverrideColor = Color.Lerp(new Color(0, 120, 180), Color.LimeGreen, wave);
+
+            if (damageIndex >= 0)
+                tooltips.Insert(damageIndex, orbitalLine);
+            else
+                tooltips.Add(orbitalLine);
+        }
+    }
+}
+
