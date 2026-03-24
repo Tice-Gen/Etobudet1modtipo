@@ -2,6 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Etobudet1modtipo.Projectiles;
+using Etobudet1modtipo.Players;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using System;
@@ -38,13 +39,30 @@ namespace Etobudet1modtipo.items
 
         public override void AddRecipes()
         {
-            CreateRecipe()
+            Recipe recipe = CreateRecipe()
                 .AddIngredient(ItemID.AdamantiteBar, 16)
                 .AddIngredient(ItemID.SoulofMight, 8)
                 .AddIngredient(ItemID.SoulofSight, 8)
                 .AddIngredient(ItemID.SoulofFright, 8)
-                .AddTile(TileID.MythrilAnvil)
-                .Register();
+                .AddTile(TileID.MythrilAnvil);
+
+            recipe.AddOnCraftCallback(static (_, item, _, _) =>
+            {
+                if (Main.netMode == NetmodeID.Server)
+                {
+                    return;
+                }
+
+                Player localPlayer = Main.LocalPlayer;
+                if (localPlayer == null || !localPlayer.active)
+                {
+                    return;
+                }
+
+                localPlayer.GetModPlayer<OrbitAchievementPlayer>().RegisterOrbitalYoyoCraft(item.type);
+            });
+
+            recipe.Register();
         }
 
         public override void ModifyTooltips(List<TooltipLine> tooltips)

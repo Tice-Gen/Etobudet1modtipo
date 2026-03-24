@@ -43,7 +43,7 @@ namespace Etobudet1modtipo.Events
                     CatastropheEventSystem.catastropheNight = true;
 
                     if (Main.netMode != NetmodeID.Server)
-                        Main.NewText("Бедствие охватывает эту ночь...", 200, 0, 200);
+                        Main.NewText("Catastrophe grips this night...", 200, 0, 200);
 
                     Terraria.Audio.SoundEngine.PlaySound(SoundID.Roar, Main.LocalPlayer.position);
                 }

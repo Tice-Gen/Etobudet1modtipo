@@ -57,11 +57,8 @@ namespace Etobudet1modtipo.items
                     indexesToRemove.Add(i);
                 }
 
-                else if (line.Text.Contains(" урон") || 
-                         line.Text.Contains(" damage") ||
-                         line.Text.Contains(" скорость") ||
+                else if (line.Text.Contains(" damage") ||
                          line.Text.Contains(" speed") ||
-                         line.Text.Contains(" отбрасывание") ||
                          line.Text.Contains(" knockback"))
                 {
                     indexesToRemove.Add(i);

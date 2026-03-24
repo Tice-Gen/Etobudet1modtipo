@@ -34,7 +34,6 @@ namespace Etobudet1modtipo.items
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-
             healTimer++;
             if (healTimer >= 30)
             {
@@ -44,7 +43,6 @@ namespace Etobudet1modtipo.items
                 player.HealEffect(healAmount, true);
                 healTimer = 0;
             }
-
 
             player.GetDamage<EndlessThrower>() += 0.05f;
         }

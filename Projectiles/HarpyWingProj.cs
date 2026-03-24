@@ -117,7 +117,7 @@ namespace Etobudet1modtipo.Projectiles
             if (Main.rand.NextFloat() < 0.30f)
             {
                 target.AddBuff(
-                    ModContent.BuffType<SevereСuts>(),
+                    ModContent.BuffType<SevereCuts>(),
                     180
                 );
             }

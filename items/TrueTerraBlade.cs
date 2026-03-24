@@ -42,20 +42,20 @@ namespace Etobudet1modtipo.items
 
             
 
-            int снаряд = ProjectileID.RainbowRodBullet; 
+            int projectileType = ProjectileID.RainbowRodBullet; 
 
 
             float angle = MathHelper.ToRadians(5f); 
 
 
-            Projectile.NewProjectile(source, position, velocity, снаряд, damage, knockback, player.whoAmI);
+            Projectile.NewProjectile(source, position, velocity, projectileType, damage, knockback, player.whoAmI);
 
 
 
-            Projectile.NewProjectile(source, position, velocity.RotatedBy(angle), снаряд, damage, knockback, player.whoAmI);
+            Projectile.NewProjectile(source, position, velocity.RotatedBy(angle), projectileType, damage, knockback, player.whoAmI);
 
 
-            Projectile.NewProjectile(source, position, velocity.RotatedBy(-angle), снаряд, damage, knockback, player.whoAmI);
+            Projectile.NewProjectile(source, position, velocity.RotatedBy(-angle), projectileType, damage, knockback, player.whoAmI);
 
 
             return false; 

@@ -1,0 +1,1561 @@
+Mods: {
+	Etobudet1modtipo: {
+		// NPCs.EyeOfCalamity.DisplayName: Eye of Calamity
+		// CreatingSeaSalt: Seeding Sea Salt...
+
+		Achievements: {
+			AnimalsSaver: {
+				// DisplayName: Animals saver!
+				// Description: Reach exactly 5 GoodNature points.
+			}
+
+			Orbit: {
+				// DisplayName: Orbit!
+				// Description: Craft all Orbital Yoyo items.
+			}
+
+			ForestGuard: {
+				// DisplayName: Forest Guard
+				// Description: Defeat Anise King Slime.
+			}
+		}
+
+		// Bestiary.JellyFish: A peaceful jellyfish. If stranded, it desperately hops toward water. A little help from a Water Gun can save its life.
+	}
+}
+
+Items: {
+	ArrowSword: {
+		// DisplayName: Arrow Sword
+		// Tooltip: ""
+	}
+
+	EyeOfCalamitySummon: {
+		// DisplayName: Eye Of Calamity Summon
+		// Tooltip: ""
+	}
+
+	WeekZenith: {
+		// DisplayName: Week Zenith
+		// Tooltip: ""
+	}
+
+	HeartOfCalamity: {
+		// DisplayName: Heart Of Calamity
+		// Tooltip: ""
+	}
+
+	ParticleOfCalamity: {
+		// DisplayName: Particle Of Calamity
+		// Tooltip: ""
+	}
+
+	WeekPlasma: {
+		// DisplayName: Week Plasma
+		// Tooltip: ""
+	}
+
+	LivingBlade: {
+		// DisplayName: Living Blade
+		// Tooltip: Literally a talking piece of flesh
+	}
+
+	ArtifactOfCatastrophe: {
+		// DisplayName: Artifact Of Catastrophe
+		// Tooltip: ""
+	}
+
+	ProphecyBlade: {
+		// DisplayName: Prophecy Blade
+		// Tooltip: ""
+	}
+
+	NA: {
+		// Tooltip: ""
+		// DisplayName: N A
+	}
+
+	GrenadeLauncher: {
+		// DisplayName: Grenade Launcher
+		// Tooltip: ""
+	}
+
+	EmptySlimeGun: {
+		// DisplayName: Empty Slime Gun
+		// Tooltip: ""
+	}
+
+	PoisonGun: {
+		// DisplayName: Poison Gun
+		// Tooltip: ""
+	}
+
+	VenomGun: {
+		// DisplayName: Venom Gun
+		// Tooltip: ""
+	}
+
+	ReverseShotgun: {
+		// DisplayName: Reverse Shotgun
+		// Tooltip: ""
+	}
+
+	HeartOfCatastrophe: {
+		// DisplayName: Heart Of Catastrophe
+		// Tooltip: ""
+	}
+
+	StarStaff: {
+		// DisplayName: Star Staff
+		// Tooltip: ""
+	}
+
+	WoodenRandomBox: {
+		// DisplayName: Wooden Random Box
+		// Tooltip: ""
+	}
+
+	ImprovedStaff: {
+		// DisplayName: Improved Staff
+		// Tooltip: ""
+	}
+
+	LittleCalamityWorm: {
+		// DisplayName: Little Calamity Worm
+		// Tooltip: ""
+	}
+
+	DyingBlackStar: {
+		// DisplayName: Dying Black Star
+		// Tooltip: ""
+	}
+
+	IronArrowSword: {
+		// DisplayName: Iron Arrow Sword
+		// Tooltip: ""
+	}
+
+	MetalArrowSword: {
+		// DisplayName: Metal Arrow Sword
+		// Tooltip: ""
+	}
+
+	AbyssalFracture: {
+		// DisplayName: Abyssal Fracture
+		// Tooltip: ""
+	}
+
+	BlackBlade: {
+		// DisplayName: Black Blade
+		// Tooltip: ""
+	}
+
+	MiniSharkTurret: {
+		// DisplayName: Mini Shark Turret
+		// Tooltip: ""
+	}
+
+	IronArrowItem: {
+		// DisplayName: Iron Arrow Item
+		// Tooltip: ""
+	}
+
+	IronArrow: {
+		// DisplayName: Iron Arrow
+		// Tooltip: ""
+	}
+
+	KnifeStorm: {
+		// DisplayName: Knife Storm
+		// Tooltip: ""
+	}
+
+	PoisonKnifeStorm: {
+		// DisplayName: Poison Knife Storm
+		// Tooltip: ""
+	}
+
+	PoisonKnife: {
+		// Tooltip: ""
+		// DisplayName: Poison Knife
+	}
+
+	EndlessThrowerBreastplate: {
+		// DisplayName: Endless Thrower Breastplate
+		// Tooltip: ""
+	}
+
+	EndlessThrowerHelmet: {
+		// DisplayName: Endless Thrower Helmet
+		// Tooltip: ""
+	}
+
+	EndlessThrowerLeggings: {
+		// DisplayName: Endless Thrower Leggings
+		// Tooltip: ""
+	}
+
+	StickyThrower: {
+		// DisplayName: Sticky Thrower
+		// Tooltip: ""
+	}
+
+	WeekPlasmaGun: {
+		// DisplayName: Week Plasma Gun
+		// Tooltip: ""
+	}
+
+	WeekPlasmaSword: {
+		// DisplayName: Week Plasma Sword
+		// Tooltip: ""
+	}
+
+	Stonelash: {
+		// DisplayName: Stonelash
+		// Tooltip: ""
+	}
+
+	PlasmaGun: {
+		// DisplayName: Plasma Gun
+		// Tooltip: ""
+	}
+
+	UltraPlasmaGun: {
+		// DisplayName: Ultra Plasma Gun
+		// Tooltip: ""
+	}
+
+	AnisBombard: {
+		// DisplayName: Anis Bombard
+		// Tooltip: ""
+	}
+
+	AromaticHalo: {
+		// DisplayName: Aromatic Halo
+		// Tooltip: ""
+	}
+
+	AnisForestBar: {
+		// DisplayName: Anis Forest Bar
+		// Tooltip: ""
+	}
+
+	ProtectingAniseStaff: {
+		// DisplayName: Protecting Anise Staff
+		// Tooltip: ""
+	}
+
+	AniseForestLeggings: {
+		// Tooltip: ""
+		// DisplayName: Anise Forest Leggings
+	}
+
+	AniseForestHelmet: {
+		// Tooltip: ""
+		// DisplayName: Anise Forest Helmet
+	}
+
+	AniseForestBreastplate: {
+		// Tooltip: ""
+		// DisplayName: Anise Forest Breastplate
+	}
+
+	AniseForestSeeds: {
+		// DisplayName: Anise Forest Seeds
+		// Tooltip: ""
+	}
+
+	HighlyConcentratedAniseSoda: {
+		// DisplayName: Highly Concentrated Anise Soda
+		// Tooltip: ""
+	}
+
+	TinCan: {
+		// DisplayName: Tin Can
+		// Tooltip: ""
+	}
+
+	AniseSoda: {
+		// DisplayName: Anise Soda
+		// Tooltip: ""
+	}
+
+	PumpkinPickaxe: {
+		// DisplayName: Pumpkin Pickaxe
+		// Tooltip: ""
+	}
+
+	HeartOfAniseForest: {
+		// DisplayName: Heart Of Anise Forest
+		// Tooltip: ""
+	}
+
+	AniseRifle: {
+		// DisplayName: Anise Rifle
+		// Tooltip: ""
+	}
+
+	AniseBombard: {
+		// DisplayName: Anise Bombard
+		// Tooltip: ""
+	}
+
+	AniseForestBar: {
+		// DisplayName: Anise Forest Bar
+		// Tooltip: ""
+	}
+
+	BruhWhatThe: {
+		// DisplayName: Bruh What The
+		// Tooltip: ""
+	}
+
+	AromaticGel: {
+		// Tooltip: ""
+		// DisplayName: Aromatic Gel
+	}
+
+	AngryAnise: {
+		// DisplayName: Angry Anise
+		// Tooltip: ""
+	}
+
+	StrangeBigAromaticGel: {
+		// DisplayName: Strange Big Aromatic Gel
+		// Tooltip: ""
+	}
+
+	TameAngryAnise: {
+		// DisplayName: Tame Angry Anise
+		// Tooltip: ""
+	}
+
+	AniseHead: {
+		// DisplayName: Anise Head
+		// Tooltip: ""
+	}
+
+	AromaticWood: {
+		// DisplayName: Aromatic Wood
+		// Tooltip: ""
+	}
+
+	Slinhshot: {
+		// Tooltip: ""
+		// DisplayName: Slinhshot
+	}
+
+	StoneBall: {
+		// Tooltip: ""
+		// DisplayName: Stone Ball
+	}
+
+	Slingshot: {
+		// Tooltip: ""
+		// DisplayName: Slingshot
+	}
+
+	SmartIdea: {
+		// Tooltip: ""
+		// DisplayName: Smart Idea
+	}
+
+	AniseForestSpear: {
+		// DisplayName: Anise Forest Spear
+		// Tooltip: ""
+	}
+
+	FractionalTestSword: {
+		// DisplayName: Fractional Test Sword
+		// Tooltip: ""
+	}
+
+	FlamethrowerPrototype: {
+		// Tooltip: ""
+		// DisplayName: Flamethrower Prototype
+	}
+
+	AniseInfusion: {
+		// DisplayName: Anise Infusion
+		// Tooltip: Restores 60 health over time
+	}
+
+	CobaltMask: {
+		// DisplayName: Cobalt Mask
+		// Tooltip: ""
+	}
+
+	ShadowHammer: {
+		// DisplayName: Shadow Hammer
+		// Tooltip: ""
+	}
+
+	CobaltKnifeStorm: {
+		// Tooltip: ""
+		// DisplayName: Cobalt Knife Storm
+	}
+
+	TitaniumMask: {
+		// Tooltip: ""
+		// DisplayName: Titanium Mask
+	}
+
+	AniseGlove: {
+		// DisplayName: Anise Glove
+		// Tooltip: Increases Endless Thrower weapon damage and speed
+	}
+
+	AniseKingSlimeBag: {
+		// Tooltip: Right-click to open
+		// DisplayName: Anise King Slime Bag
+	}
+
+	AniseGasEmitter: {
+		// DisplayName: Anise Gas Emitter
+		// Tooltip: ""
+	}
+
+	MusicBox_MistyCave: {
+		// Tooltip: ""
+		// DisplayName: Music Box_ Misty Cave
+	}
+
+	MusicBox_AniseForest: {
+		// Tooltip: ""
+		// DisplayName: Music Box_ Anise Forest
+	}
+
+	AdamantiteMask: {
+		// Tooltip: ""
+		// DisplayName: Adamantite Mask
+	}
+
+	OrichalcumFossilHelmet: {
+		// Tooltip: ""
+		// DisplayName: Orichalcum Fossil Helmet
+	}
+
+	AniseYoyo: {
+		// DisplayName: Anise Yoyo
+		// Tooltip: ""
+	}
+
+	PalladiumHelmet: {
+		// DisplayName: Palladium Helmet
+		// Tooltip: ""
+	}
+
+	AdamantiteHelmet: {
+		// DisplayName: Adamantite Helmet
+		// Tooltip: ""
+	}
+
+	EndlessThrowerEmblem: {
+		// Tooltip: Increases Endless Thrower damage by 15%
+		// DisplayName: Endless Thrower Emblem
+	}
+
+	MythrilHelmet: {
+		// DisplayName: Mythril Helmet
+		// Tooltip: ""
+	}
+
+	FloweringChlorophyteHelmet: {
+		// Tooltip: ""
+		// DisplayName: Flowering Chlorophyte Helmet
+	}
+
+	FloweringChlorophyteBreastplate: {
+		// DisplayName: Flowering Chlorophyte Breastplate
+		// Tooltip: ""
+	}
+
+	AniseForestPickaxe: {
+		// DisplayName: Anise Forest Pickaxe
+		// Tooltip: ""
+	}
+
+	FloweringChlorophyteLeggings: {
+		// DisplayName: Flowering Chlorophyte Leggings
+		// Tooltip: ""
+	}
+
+	AniseForestDagger: {
+		// Tooltip: Releases leaves around the cursor
+		// DisplayName: Anise Forest Dagger
+	}
+
+	Runeosama: {
+		// Tooltip: ""
+		// DisplayName: Runeosama
+	}
+
+	FloweringChlorophyteBar: {
+		// DisplayName: Flowering Chlorophyte Bar
+		// Tooltip: ""
+	}
+
+	CalamityBreastplate: {
+		// Tooltip: ""
+		// DisplayName: Calamity Breastplate
+	}
+
+	CalamityHelmet: {
+		// DisplayName: Calamity Helmet
+		// Tooltip: ""
+	}
+
+	CalamityLeggings: {
+		// DisplayName: Calamity Leggings
+		// Tooltip: ""
+	}
+
+	CustomArkhalis: {
+		// Tooltip: ""
+		// DisplayName: Custom Arkhalis
+	}
+
+	FogStone: {
+		// DisplayName: Fog Stone
+		// Tooltip: ""
+	}
+
+	FogStoneBlock: {
+		// Tooltip: ""
+		// DisplayName: Fog Stone Block
+	}
+
+	SeaSalt: {
+		// DisplayName: Sea Salt
+		// Tooltip: ""
+	}
+
+	FogStoneBreastplate: {
+		// Tooltip: ""
+		// DisplayName: Fog Stone Breastplate
+	}
+
+	FogStoneHelmet: {
+		// DisplayName: Fog Stone Helmet
+		// Tooltip: ""
+	}
+
+	FogStoneLeggings: {
+		// DisplayName: Fog Stone Leggings
+		// Tooltip: ""
+	}
+
+	BrokenRodOfTeleporting: {
+		// DisplayName: Broken Rod Of Teleporting
+		// Tooltip: ""
+	}
+
+	AngrySunflower: {
+		// DisplayName: Angry Sunflower
+		// Tooltip: Organic turret
+	}
+
+	TrueTerraBlade: {
+		// Tooltip: The true final sword
+		// DisplayName: True Terra Blade
+	}
+
+	LunarSpaceCleaver: {
+		// Tooltip: Drops unstable galaxies on enemies
+		// DisplayName: Lunar Space Cleaver
+	}
+
+	HeroSword: {
+		// DisplayName: Hero Sword
+		// Tooltip: ""
+	}
+
+	FatalitySword: {
+		// Tooltip: ""
+		// DisplayName: Fatality Sword
+	}
+
+	ObsidianDemonicScythe: {
+		// Tooltip: ""
+		// DisplayName: Obsidian Demonic Scythe
+	}
+
+	SkySteel: {
+		// DisplayName: Sky Steel
+		// Tooltip: ""
+	}
+
+	SolarPlasmaRetainer: {
+		// Tooltip: Rapidly fires solar blades
+		// DisplayName: Solar Plasma Retainer
+	}
+
+	CloudInVial: {
+		// DisplayName: Cloud In Vial
+		// Tooltip: Allows a small double jump
+	}
+
+	MiniSandStormInVial: {
+		// Tooltip: Allows a double jump
+		// DisplayName: Mini Sand Storm In Vial
+	}
+
+	Glacier: {
+		// DisplayName: Glacier
+		// Tooltip: ""
+	}
+
+	FluxBlurTester: {
+		// DisplayName: Flux Blur Tester
+		// Tooltip: ""
+	}
+
+	BlurTester: {
+		// Tooltip: ""
+		// DisplayName: Blur Tester
+	}
+
+	PinwheelShuriken: {
+		// DisplayName: Pinwheel Shuriken
+		// Tooltip: ""
+	}
+
+	SimpleItem: {
+		// DisplayName: Simple Item
+		// Tooltip: ""
+	}
+
+	StaffOfUnquenchableLava: {
+		// DisplayName: Staff Of Unquenchable Lava
+		// Tooltip: ""
+	}
+
+	OMEGASOLARPLASMA: {
+		// DisplayName: OMEGA SOLAR PLASMA
+		// Tooltip: ""
+	}
+
+	ObsidianDemonicScytheAwakened: {
+		// Tooltip: ""
+		// DisplayName: Obsidian Demonic Scythe Awakened
+	}
+
+	BearserkerAmulet: {
+		// Tooltip: ""
+		// DisplayName: Bearserker Amulet
+	}
+
+	SteelOfLife: {
+		// DisplayName: Steel Of Life
+		// Tooltip: ""
+	}
+
+	SealedCoreOfLife: {
+		// Tooltip: ""
+		// DisplayName: Sealed Core Of Life
+	}
+
+	BerserkAmulet: {
+		// DisplayName: Berserk Amulet
+		// Tooltip: ""
+	}
+
+	BerserkBalde: {
+		// DisplayName: Berserk Balde
+		// Tooltip: ""
+	}
+
+	OneHpChallenge: {
+		// Tooltip: ""
+		// DisplayName: One Hp Challenge
+	}
+
+	FragmentationGrenade: {
+		// DisplayName: Fragmentation Grenade
+		// Tooltip: ""
+	}
+
+	ASLD: {
+		// DisplayName: ASLD
+		// Tooltip: ""
+	}
+
+	HitByYoureHand: {
+		// DisplayName: Hit By Youre Hand
+		// Tooltip: ""
+	}
+
+	HarpyRazorFeathers: {
+		// DisplayName: Harpy Razor Feathers
+		// Tooltip: ""
+	}
+
+	Aniserang: {
+		// Tooltip: Can inflict Highly Concentrated on enemies
+		// DisplayName: Aniserang
+	}
+
+	PalladiumKunai: {
+		// DisplayName: Palladium Kunai
+		// Tooltip: ""
+	}
+
+	Gearanise: {
+		// DisplayName: Gearanise
+		// Tooltip: You throw incredibly powerful gears. Deals more damage to bosses and untouched enemies
+	}
+
+	LivingBladeExoTest: {
+		// Tooltip: ""
+		// DisplayName: Living Blade Exo Test
+	}
+
+	StarBow: {
+		// Tooltip: ""
+		// DisplayName: Star Bow
+	}
+
+	NecklaceOfEternalSatiety: {
+		// DisplayName: Necklace Of Eternal Satiety
+		// Tooltip: ""
+	}
+
+	TitaniumYoyo: {
+		// DisplayName: Titanium Yoyo
+		// Tooltip: ""
+	}
+
+	StarAdamantiteYoyo: {
+		// Tooltip: ""
+		// DisplayName: Star Adamantite Yoyo
+	}
+
+	ChlorophyteYoyo: {
+		// DisplayName: Chlorophyte Yoyo
+		// Tooltip: ""
+	}
+
+	HallowedYoyo: {
+		// DisplayName: Hallowed Yoyo
+		// Tooltip: ""
+	}
+
+	SaltWater: {
+		// DisplayName: Salt Water
+		// Tooltip: Increases summon and whip damage
+	}
+
+	Salt: {
+		// DisplayName: Salt
+		// Tooltip: ""
+	}
+
+	Shroomyo: {
+		// DisplayName: Shroomyo
+		// Tooltip: ""
+	}
+
+	Doubow: {
+		// DisplayName: Doubow
+		// Tooltip: ""
+	}
+
+	TripleBow: {
+		// DisplayName: Triple Bow
+		// Tooltip: ""
+	}
+
+	ScorchedEarthItem: {
+		// DisplayName: Scorched Earth Item
+		// Tooltip: ""
+	}
+
+	ScorchedEarth: {
+		// Tooltip: ""
+		// DisplayName: Scorched Earth
+	}
+
+	Astranise: {
+		// DisplayName: Astranise
+		// Tooltip: ""
+	}
+
+	WormBait: {
+		// Tooltip: ""
+		// DisplayName: Worm Bait
+	}
+
+	Hook: {
+		// DisplayName: Hook
+		// Tooltip: ""
+	}
+
+	DeepSeaCutter: {
+		// DisplayName: Deep Sea Cutter
+		// Tooltip: ""
+	}
+
+	DeepSeaRifle: {
+		// DisplayName: Deep Sea Rifle
+		// Tooltip: ""
+	}
+
+	DeepSeaBar: {
+		// DisplayName: Deep Sea Bar
+		// Tooltip: ""
+	}
+
+	DeepSeaStone: {
+		// DisplayName: Deep Sea Stone
+		// Tooltip: ""
+	}
+
+	DeepSeaHook: {
+		// Tooltip: ""
+		// DisplayName: Deep Sea Hook
+	}
+
+	DeepSeaHelmet: {
+		// Tooltip: ""
+		// DisplayName: Deep Sea Helmet
+	}
+
+	DeepSeaBreastplate: {
+		// DisplayName: Deep Sea Breastplate
+		// Tooltip: ""
+	}
+
+	DeepSeaLeggings: {
+		// DisplayName: Deep Sea Leggings
+		// Tooltip: ""
+	}
+
+	DeepSeaYoyo: {
+		// DisplayName: Deep Sea Yoyo
+		// Tooltip: ""
+	}
+
+	OtherWatersBeacon: {
+		// DisplayName: Other Waters Beacon
+		// Tooltip: ""
+	}
+
+	OmegaShark: {
+		// DisplayName: Omega Shark
+		// Tooltip: ""
+	}
+
+	DeepSeaHammer: {
+		// Tooltip: ""
+		// DisplayName: Deep Sea Hammer
+	}
+
+	DeepSeaPickaxe: {
+		// DisplayName: Deep Sea Pickaxe
+		// Tooltip: ""
+	}
+
+	PlanteraClaw: {
+		// DisplayName: Plantera Claw
+		// Tooltip: ""
+	}
+
+	VisualStudio: {
+		// DisplayName: Visual Studio
+		// Tooltip: ""
+	}
+
+	Fireanise: {
+		// DisplayName: Fireanise
+		// Tooltip: ""
+	}
+
+	TrueEnchantedSword: {
+		// DisplayName: True Enchanted Sword
+		// Tooltip: ""
+	}
+
+	DeepnestPlasma: {
+		// DisplayName: Deepnest Plasma
+		// Tooltip: ""
+	}
+
+	CosmicSandClock: {
+		// DisplayName: Cosmic Sand Clock
+		// Tooltip: ""
+	}
+
+	CosmicDevourer: {
+		// Tooltip: ""
+		// DisplayName: Cosmic Devourer
+	}
+
+	Spythe: {
+		// DisplayName: Spythe
+		// Tooltip: Focused into a long, narrow sweep
+	}
+
+	SpaceFragment: {
+		// DisplayName: Space Fragment
+		// Tooltip: ""
+	}
+
+	GoldenLine: {
+		// DisplayName: Golden Line
+		// Tooltip: ""
+	}
+
+	PlatinumLine: {
+		// DisplayName: Platinum Line
+		// Tooltip: ""
+	}
+
+	MegaTrap: {
+		// DisplayName: Mega Trap
+		// Tooltip: ""
+	}
+
+	BandOfCold: {
+		// Tooltip: ""
+		// DisplayName: Band Of Cold
+	}
+
+	BandOfWarm: {
+		// DisplayName: Band Of Warm
+		// Tooltip: ""
+	}
+
+	UshankaHat: {
+		// DisplayName: Ushanka Hat
+		// Tooltip: ""
+	}
+
+	IndastrilCooler: {
+		// DisplayName: Indastril Cooler
+		// Tooltip: ""
+	}
+
+	Fan: {
+		// DisplayName: Fan
+		// Tooltip: ""
+	}
+}
+
+NPCs: {
+	// EyeOfCalamity.DisplayName: Eye Of Calamity
+	// MinionOfCalamity.DisplayName: Minion Of Calamity
+	// ArenaOfTheFinalDisaster.DisplayName: Arena Of The Final Disaster
+	// SeraphimOfCalamity.DisplayName: Seraphim Of Calamity
+	// AniseForestGuardian.DisplayName: Anise Forest Guardian
+	// AniseForestSlime.DisplayName: Anise Forest Slime
+	// AniseKingSlime.DisplayName: Anise King Slime
+	// WoodSlime.DisplayName: Wood Slime
+	// MechanicEye.DisplayName: Mechanic Eye
+	// HighlyConcentratedAniseSlime.DisplayName: Highly Concentrated Anise Slime
+	// FlyingAngryAnise.DisplayName: Flying Angry Anise
+	// AngelAnise.DisplayName: Angel Anise
+	// AshWoodenMonster.DisplayName: Ash Wooden Monster
+	// AshBat.DisplayName: Ash Bat
+	// TheHungriest.DisplayName: The Hungriest
+	// SL_KING.DisplayName: SL_ KING
+	// Statue.DisplayName: Statue
+	// FishMob.DisplayName: Fish Mob
+	// DeepSeaUrchin.DisplayName: Deep Sea Urchin
+	// LampShark.DisplayName: Lamp Shark
+	// LavaShark.DisplayName: Lava Shark
+	// LongWorm.DisplayName: Long Worm
+	// JellyFish.DisplayName: Jelly Fish
+	// Astraclysm.DisplayName: Astraclysm
+}
+
+Projectiles: {
+	// PoisonParticle.DisplayName: Poison Particle
+	// PoisonProjectile.DisplayName: Poison Projectile
+	// VenomProjectile.DisplayName: Venom Projectile
+	// ReverseBullet.DisplayName: Reverse Bullet
+	// ImprovedStaffProjectile.DisplayName: Improved Staff Projectile
+	// CalamityLaser.DisplayName: Calamity Laser
+	// SeraphimCalamityStar.DisplayName: Seraphim Calamity Star
+	// CircleoftheDyingStar.DisplayName: Circleofthe Dying Star
+	// DeadStar.DisplayName: Dead Star
+	// IronArrow.DisplayName: Iron Arrow
+	// SeraphimCalamityStarV2.DisplayName: Seraphim Calamity Star V2
+	// BlackStarEffect.DisplayName: Black Star Effect
+	// MiniSharkTurretProj.DisplayName: Mini Shark Turret Proj
+	// IronArrowProj.DisplayName: Iron Arrow Proj
+	// StickyKnife.DisplayName: Sticky Knife
+	// WeekPlasmaShot.DisplayName: Week Plasma Shot
+	// PlasmaLaser.DisplayName: Plasma Laser
+	// BurstingStarAnise.DisplayName: Bursting Star Anise
+	// AnisAcs.DisplayName: Anis Acs
+	// ProtectingAnise.DisplayName: Protecting Anise
+	// AnisePoisonGas.DisplayName: Anise Poison Gas
+	// HighlyConcentratedAniseSodaProjectile.DisplayName: Highly Concentrated Anise Soda Projectile
+	// ExplosiveAnise.DisplayName: Explosive Anise
+	// AngryAnise.DisplayName: Angry Anise
+	// AngryGas.DisplayName: Angry Gas
+	// WeekZenithProj.DisplayName: Week Zenith Proj
+	// BulletAnise.DisplayName: Bullet Anise
+	// AngryAniseProj.DisplayName: Angry Anise Proj
+	// TameAngryAniseProj.DisplayName: Tame Angry Anise Proj
+	// StoneBall.DisplayName: Stone Ball
+	// StoneBallProj.DisplayName: Stone Ball Proj
+	// SmartIdeaFlame.DisplayName: Smart Idea Flame
+	// GelWhipProjectile.DisplayName: Gel Whip Projectile
+	// AniseForestSpearProj.DisplayName: Anise Forest Spear Proj
+	// HitboxProjectile.DisplayName: Hitbox Projectile
+	// AniseStinger.DisplayName: Anise Stinger
+	// FlamethrowerPrototypeFlame.DisplayName: Flamethrower Prototype Flame
+	// AniseFront.DisplayName: Anise Front
+	// AniseBack.DisplayName: Anise Back
+	// ShadowHammerProj.DisplayName: Shadow Hammer Proj
+	// CobaltKnife.DisplayName: Cobalt Knife
+	// AniseYoyoProj.DisplayName: Anise Yoyo Proj
+	// BloomingSpores.DisplayName: Blooming Spores
+	// RuneosamaInvisibleProj.DisplayName: Runeosama Invisible Proj
+	// CustomArkhalisProj.DisplayName: Custom Arkhalis Proj
+	// PoisonKnifeProj.DisplayName: Poison Knife Proj
+	// StrangeGas.DisplayName: Strange Gas
+	// ToxicSmoke.DisplayName: Toxic Smoke
+	// BigToxicCloud.DisplayName: Big Toxic Cloud
+	// ToxicSmoke2.DisplayName: Toxic Smoke2
+	// ExampleSwingingEnergySwordProjectile.DisplayName: Example Swinging Energy Sword Projectile
+	// TrueTerraBladeSwordProjectile.DisplayName: True Terra Blade Sword Projectile
+	// LunarZigzag.DisplayName: Lunar Zigzag
+	// MiningKnifeProjectile.DisplayName: Mining Knife Projectile
+	// HeroProj.DisplayName: Hero Proj
+	// Test.DisplayName: Test
+	// PlasmaRetiner.DisplayName: Plasma Retiner
+	// SolarBlade2.DisplayName: Solar Blade2
+	// SolarBlade.DisplayName: Solar Blade
+	// GlacierWave.DisplayName: Glacier Wave
+	// UltraPlasmaGunHold.DisplayName: Ultra Plasma Gun Hold
+	// FluxBullet.DisplayName: Flux Bullet
+	// FluxPulseBullet.DisplayName: Flux Pulse Bullet
+	// FluxBulletProj.DisplayName: Flux Bullet Proj
+	// FluxPulseBulletProj.DisplayName: Flux Pulse Bullet Proj
+	// FragmentOfAnise.DisplayName: Fragment Of Anise
+	// Pinwheel.DisplayName: Pinwheel
+	// AniseAcs.DisplayName: Anise Acs
+	// UnquenchableLava.DisplayName: Unquenchable Lava
+	// ToxicSmoke3.DisplayName: Toxic Smoke3
+	// ToxicSmoke4.DisplayName: Toxic Smoke4
+	// Sun.DisplayName: Sun
+	// ObsidianDemonicScytheSwordProjectile.DisplayName: Obsidian Demonic Scythe Sword Projectile
+	// ObsidianDemonicScytheSwordProjectile_Awakened.DisplayName: Obsidian Demonic Scythe Sword Projectile_ Awakened
+	// ToxicSmokeForWallOfFlesh.DisplayName: Toxic Smoke For Wall Of Flesh
+	// FlareMarker.DisplayName: Flare Marker
+	// FragmentationGrenadeProj.DisplayName: Fragmentation Grenade Proj
+	// HarpyWingProj.DisplayName: Harpy Wing Proj
+	// AniserangProj.DisplayName: Aniserang Proj
+	// IronAniseProj.DisplayName: Iron Anise Proj
+	// PalladiumKunaiProj.DisplayName: Palladium Kunai Proj
+	// Gearwheel.DisplayName: Gearwheel
+	// Rock.DisplayName: Rock
+	// LivingBladeSwingProjectile.DisplayName: Living Blade Swing Projectile
+	// LivingBladeComboController.DisplayName: Living Blade Combo Controller
+	// StarArrow.DisplayName: Star Arrow
+	// CalamityEye.DisplayName: Calamity Eye
+	// SeraphimCalamityStarV3.DisplayName: Seraphim Calamity Star V3
+	// TitaniumYoyoProj.DisplayName: Titanium Yoyo Proj
+	// TitaniumSharp.DisplayName: Titanium Sharp
+	// TitaniumShard.DisplayName: Titanium Shard
+	// AdamantiteShard.DisplayName: Adamantite Shard
+	// AdamantiteYoyoProj.DisplayName: Adamantite Yoyo Proj
+	// ChlorophyteShard.DisplayName: Chlorophyte Shard
+	// ChlorophyteYoyoProj.DisplayName: Chlorophyte Yoyo Proj
+	// HallowedYoyoProj.DisplayName: Hallowed Yoyo Proj
+	// Moonyo.DisplayName: Moonyo
+	// ShroomyoProj.DisplayName: Shroomyo Proj
+	// AstraniseProj.DisplayName: Astranise Proj
+	// AstraniseShard.DisplayName: Astranise Shard
+	// DeepSeaProj.DisplayName: Deep Sea Proj
+	// DeepSeaPressure.DisplayName: Deep Sea Pressure
+	// DeepSeaPressureParticle.DisplayName: Deep Sea Pressure Particle
+	// DeepGarp.DisplayName: Deep Garp
+	// FishMobHostileShot.DisplayName: Fish Mob Hostile Shot
+	// DeepSeaYoyoProj.DisplayName: Deep Sea Yoyo Proj
+	// DeepSeaHammerProj.DisplayName: Deep Sea Hammer Proj
+	// VisualStudioCode.DisplayName: Visual Studio Code
+	// DeepShard.DisplayName: Deep Shard
+	// DeepShard1.DisplayName: Deep Shard1
+	// DeepShard2.DisplayName: Deep Shard2
+	// DeepShard3.DisplayName: Deep Shard3
+	// DeepShard4.DisplayName: Deep Shard4
+	// DeepSeaYoyoComponent.DisplayName: Deep Sea Yoyo Component
+	// DeepShardBlastGlow.DisplayName: Deep Shard Blast Glow
+	// DeepSeaExplotion.DisplayName: Deep Sea Explotion
+	// Noisolpxe.DisplayName: Noisolpxe
+	// Noisolpxeanise.DisplayName: Noisolpxeanise
+	// Effect.DisplayName: Effect
+	// TrueEnchantedSwordProj.DisplayName: True Enchanted Sword Proj
+	// WeekPlasmaSwingProjectile.DisplayName: Week Plasma Swing Projectile
+	// WeekPlasmaWave.DisplayName: Week Plasma Wave
+	// WeekPlasmaPulse.DisplayName: Week Plasma Pulse
+	// BlueExpl.DisplayName: Blue Expl
+	// AstralStone2.DisplayName: Astral Stone2
+	// AstralStone.DisplayName: Astral Stone
+	// CosmicKunai.DisplayName: Cosmic Kunai
+	// CosmicShard.DisplayName: Cosmic Shard
+	// CosmalFire.DisplayName: Cosmal Fire
+	// CosmolFire.DisplayName: Cosmol Fire
+	// CosmicDevourerSwingProjectile.DisplayName: Cosmic Devourer Swing Projectile
+	// SpytheSwingProjectile.DisplayName: Spythe Swing Projectile
+	// GoldenShard.DisplayName: Golden Shard
+	// GoldenYoyo.DisplayName: Golden Yoyo
+	// PlatinumShard.DisplayName: Platinum Shard
+	// PlatinumYoyo.DisplayName: Platinum Yoyo
+	// SpytheNoiseOrbProjectile.DisplayName: Spythe Noise Orb Projectile
+	// SpytheDeathSlashEffect.DisplayName: Spythe Death Slash Effect
+	// TrapDart.DisplayName: Trap Dart
+	// Cooler.DisplayName: Cooler
+	// FanCooler.DisplayName: Fan Cooler
+	// SunFlowerLeaf.DisplayName: Sun Flower Leaf
+}
+
+// DamageClasses.EndlessThrower.DisplayName: Endless Thrower
+
+Buffs: {
+	Dehydration: {
+		// DisplayName: Dehydration
+		// Description: Summons and whips hit harder, but your body weakens.
+	}
+
+	ProtectingAniseBuff: {
+		// DisplayName: Protecting Anise Buff
+		// Description: A battle anise fights for you.
+	}
+
+	HealthyAniseBuff: {
+		// DisplayName: Healthy Anise Buff
+		// Description: Vigorous taste! Increases Endless Thrower damage by 20%. Very healthy.
+	}
+
+	HighlyConcentratedTaste: {
+		// Description: Strong concentration corrodes your skin.
+		// DisplayName: Highly Concentrated Taste
+	}
+
+	TameAngryAniseBuff: {
+		// DisplayName: Tame Angry Anise Buff
+		// Description: I am smarter than you.
+	}
+
+	HighlyConcentratedStrike: {
+		// Description: Strong concentration corrodes your skin.
+		// DisplayName: Highly Concentrated Strike
+	}
+
+	HealingBuff: {
+		// Description: You heal every second.
+		// DisplayName: Healing Buff
+	}
+
+	BrokenRodCooldown: {
+		// DisplayName: Broken Rod Cooldown
+		// Description: Cannot use the broken Rod of Discord
+	}
+
+	AshDisease: {
+		// Description: Cannot breathe.
+		// DisplayName: Ash Disease
+	}
+
+	SurfaceOfTheSun: {
+		// Description: Hot as the surface of the sun.
+		// DisplayName: Surface Of The Sun
+	}
+
+	SevereCuts: {
+		// DisplayName: Severe Cuts
+		// Description: An incredible number of cuts.
+	}
+
+	FleshSplash: {
+		// DisplayName: Flesh Splash
+		// Description: Greatly increases stats.
+	}
+
+	StarBurn: {
+		// Description: Mods.Etobudet1modtipo.Buffs.StarBurn.Description
+		// DisplayName: Star Burn
+	}
+
+	UnderSupervision: {
+		// DisplayName: Under Supervision
+		// Description: Something is watching you. Your stats are reduced.
+	}
+
+	SaltyFoodBonus: {
+		// DisplayName: Salty Food Bonus
+		// Description: Food stat bonuses are 3% stronger.
+	}
+
+	Pressure: {
+		// DisplayName: Pressure
+		// Description: Mods.Etobudet1modtipo.Buffs.Pressure.Description
+	}
+
+	VisualStudioBuff: {
+		// Description: Summons a tiny Visual Studio Code companion.
+		// DisplayName: Visual Studio Buff
+	}
+
+	CosmolFire: {
+		// Description: Mods.Etobudet1modtipo.Buffs.CosmolFire.Description
+		// DisplayName: Cosmol Fire
+	}
+
+	ColdExposure: {
+		// DisplayName: Cold Exposure
+		// Description: Mods.Etobudet1modtipo.Buffs.ColdExposure.Description
+	}
+
+	HeatExposure: {
+		// DisplayName: Heat Exposure
+		// Description: Mods.Etobudet1modtipo.Buffs.HeatExposure.Description
+	}
+}
+
+Biomes: {
+	AniseForestBiome: {
+		// DisplayName: Anise Forest Biome
+		// TownNPCDialogueName: the Anise Forest Biome
+	}
+
+	MistyCaveBiome: {
+		// DisplayName: Misty Cave Biome
+		// TownNPCDialogueName: the Misty Cave Biome
+	}
+
+	TheBottomOfTheAbyssOfRockyWaterOfTheGreatOcean: {
+		// TownNPCDialogueName: the The Bottom Of The Abyss Of Rocky Water Of The Great Ocean
+		// DisplayName: The Bottom Of The Abyss Of Rocky Water Of The Great Ocean
+	}
+
+	ShallowRockWaters: {
+		// TownNPCDialogueName: the Shallow Rock Waters
+		// DisplayName: Shallow Rock Waters
+	}
+
+	DeepRockyWatersOfOtherWaters: {
+		// TownNPCDialogueName: the Deep Rocky Waters Of Other Waters
+		// DisplayName: Deep Rocky Waters Of Other Waters
+	}
+}
+
+Tiles: {
+	// AniseForestBarTile.MapEntry: Anise Forest Bar Tile
+	// FloweringChlorophyteBarTile.MapEntry: Flowering Chlorophyte Bar Tile
+	// FogStone_Gem.MapEntry: Fog Stone_ Gem
+	// SkySteelTile.MapEntry: Sky Steel Tile
+	// SeaSaltTile.MapEntry: Sea Salt
+}
+
+Configs: {
+	EtobudetConfig: {
+		// DisplayName: Logical, more complex crafting (1)
+
+		Headers: {
+			// $parentVal: Recipe changes Header
+			// CraftSettings: Craft settings header
+		}
+
+		UseHarderRecipes: {
+			// Label: Adds only 1 recipe.
+			// Tooltip: This config is in development and not finished yet.
+		}
+	}
+}
+
+Prefixes: {
+	// AnisePrefix_Potent.DisplayName: Anise Prefix_ Potent
+	// AniseGodlyPrefix.DisplayName: Anise Blessings
+	// AniseBrokenPrefix.DisplayName: Anise curse
+}
+
+ItemTooltips: {
+	ASLD: {
+		/* ASLDDesc:
+			'''
+			ASLD - Air strike launch device
+			Calls down an airstrike marker
+			''' */
+		// Damage: Airstrike damage
+	}
+
+	/* OmegaShark.Tooltip:
+		'''
+		Fires burning rounds
+		Each shot speeds up fire rate (36 -> 2 use time)
+		Completely ignores enemy armor
+		At max fire rate, overheats after 5 seconds
+		''' */
+
+	SaltyFood: {
+		/* Bonus:
+			'''
+			Food stat bonuses are 3% stronger
+			Food duration increased by 1 minute
+			''' */
+		// Prefix: Salty
+	}
+
+	/* AniseForestSpear.AniseForestSpearDescription:
+		'''
+		Throws a powerful spear that may split into leaves on impact
+		Throws leaves together with the spear
+		Inflicts Highly Concentrated on enemies
+		Does not consume ammo
+		''' */
+	// AniseGlove.AniseGloveTooltip: Melee attacks inflict Highly Concentrated on enemies
+	// AniseRifle.AniseRifleDescription: ""
+
+	AniseSoda: {
+		/* AniseSodaTooltip:
+			'''
+			A fizzy, spicy-sweet drink.
+			"Good for your health!"
+			''' */
+		// ItemName: Anise Soda
+	}
+
+	// AromaticGel.Tooltip: Gel infused with aroma
+	// AromaticHalo.AromaticHaloDesc: 8 aromatic star anise spin around the player
+
+	ArtifactOfCatastrophe: {
+		// Description: The power of this artifact is immense, but the price is your life.
+		/* MagicBoost:
+			'''
+			Increases magic damage by 99%
+			Cannot use healing potions while equipped
+			''' */
+	}
+
+	BrokenRodOfTeleporting: {
+		// Cooldown: Cooldown: 60 seconds
+		// Requirement: Requires a full FogStone armor set
+	}
+
+	/* BruhWhatThe.HeartOfAniseForest:
+		'''
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		67
+		''' */
+	// CalamityBreastplate.EndlessThrowerBreastplateDesc: Increases Endless Thrower damage by 14%
+	// CalamityHelmet.EndlessThrowerHelmetDesc: Increases Endless Thrower damage by 14%
+	/* CalamityLeggings.EndlessThrowerLeggingsDesc:
+		'''
+		Increases Endless Thrower damage by 6%
+		Increases movement speed by 7%
+		''' */
+
+	CobaltKnifeStorm: {
+		// CobaltKnifeStormDesc: Fires a fan-shaped volley of {0} projectiles.
+		// NoAmmo: Does not consume ammo
+	}
+
+	/* CobaltMask.AniseForestHelmetDesc:
+		'''
+		Increases Endless Thrower damage by 10%
+		Increases Endless Thrower attack speed by 10%
+		''' */
+	// EmptySlimeGun.EmptySlimeGunDesc: Empty slime mechanism. Cannot be used directly, but works as a crafting material.
+	// FatalitySword.InfinityDamage: ∞ damage
+	// FlamethrowerPrototype.VenomGunDesc: You are an engineer if you came up with this.
+	/* FloweringChlorophyteBreastplate.FloweringChlorophyteBreastplateDesc:
+		'''
+		Increases Endless Thrower damage and critical strike chance by 9%
+		Grants a floral double jump
+		''' */
+	/* FloweringChlorophyteHelmet.AniseForestHelmetDesc:
+		'''
+		Increases Endless Thrower damage by 20%
+		Increases Endless Thrower critical strike chance by 12%
+		Grants immunity to ichor, acid venom, and poison
+		''' */
+	/* FloweringChlorophyteLeggings.AniseForestLeggingsDesc:
+		'''
+		Increases Endless Thrower critical strike chance by 7%
+		Increases movement speed by 8%
+		''' */
+
+	FogStoneBreastplate: {
+		/* MinionBonus:
+			'''
+			Removes all your defense
+			+3 max minions
+			''' */
+		// NegativeDefense: -300 defense
+	}
+
+	FogStoneHelmet: {
+		/* MinionBonus:
+			'''
+			Removes all your defense
+			+3 max minions
+			''' */
+		// NegativeDefense: -200 defense
+	}
+
+	FogStoneLeggings: {
+		/* MinionBonus:
+			'''
+			Removes all your defense
+			+1 max minions
+			''' */
+		// NegativeDefense: -100 defense
+	}
+
+	// FractionalTestSword.DamageLine: 1.5{0} in melee
+	// FragmentationGrenade.Description: If only you could load them into a grenade launcher...
+	// Gearanise.GearaniseDesc: Does not consume ammo.
+	// Glacier.Description: '''"Heart of Ice"'''
+	// GrenadeLauncher.GrenadeLauncherDescription: Regular grenades? No, now they are your main argument in a dispute
+	/* HarpyRazorFeathers.KnifeStormDesc:
+		'''
+		Unleashes an endless barrage of razor-sharp feathers
+		Does not consume ammo
+		''' */
+	/* HeartOfAniseForest.HeartOfAniseForest:
+		'''
+		Heals you every 0.5 seconds
+		Slightly increases Endless Thrower damage
+		''' */
+	// HeartOfCalamity.HeartOfCalamity: Hold LMB to heal 1 HP every 0.1 seconds!
+	/* HighlyConcentratedAniseSoda.HighlyConcentratedAniseSodaDesc:
+		'''
+		Heals 1 life on use.
+		Throws a can of highly concentrated anise soda.
+		On hit, creates an aromatic damaging cloud
+		Does not consume ammo.
+		''' */
+	/* KnifeStorm.KnifeStormDesc:
+		'''
+		Unleashes an endless barrage of knives
+		Does not consume ammo
+		''' */
+	/* MythrilHelmet.AniseForestHelmetDesc:
+		'''
+		Increases Endless Thrower damage by 13%
+		Increases Endless Thrower critical strike chance by 11%
+		''' */
+	// ObsidianDemonicScythe.Dormant: ""
+	// ObsidianDemonicScytheAwakened.Awakened: The awakened power of Infernal flows through this weapon.
+	/* OrichalcumFossilHelmet.AniseForestHelmetDesc:
+		'''
+		Increases Endless Thrower damage by 19%
+		Increases Endless Thrower critical strike chance by 12%
+		''' */
+	/* PalladiumHelmet.PalladiumHelmetDesc:
+		'''
+		Increases Endless Thrower damage by 14%
+		Increases Endless Thrower speed by 11%
+		''' */
+	// PalladiumKunai.PalladiumKunaiDesc: Does not consume ammo.
+	// ParticleOfCalamity.Description: This mysterious particle of calamity has great durability and flexibility. It can contain weak plasma.
+
+	PinwheelShuriken: {
+		/* Desc:
+			'''
+			Throws sharp pinwheels that can change direction because of wind
+			Does not consume ammo.
+			''' */
+		// FunWeapon: -Fun weapon-
+	}
+
+	/* PoisonGun.PoisonGunDesc:
+		'''
+		Shoots poisonous slime.
+		Inflicts Poisoned for 30 seconds.
+		''' */
+	/* PoisonKnifeStorm.PoisonKnifeStormDesc:
+		'''
+		Unleashes an endless barrage of poisoned knives
+		Does not consume ammo
+		''' */
+	// ProphecyBlade.ProphecyBladeTooltip: ""
+	/* Runeosama.AniseHeadDesc:
+		'''
+		Left-click to release a slow barrage of cuts
+		Right-click to release a fast barrage of cuts
+		''' */
+	/* ShadowHammer.ShadowHammerDescription:
+		'''
+		Can deal 10x more damage
+		Does not consume ammo
+		''' */
+	// SkySteel.Tooltip1: Incredibly durable, but only suitable for crafting celestial weapons
+	// Slingshot.SlingshotDescription: Shoots stones
+	/* StickyThrower.StickyThrowerDesc:
+		'''
+		Throws sticky knives that stick to walls, then explode after 1 second
+		Does not consume ammo
+		''' */
+	// StoneBall.StoneBallDescription: Stone projectiles!
+	/* TameAngryAnise.TameAngryAnise:
+		'''
+		Summons your own evil anise.
+		"I am clearly smarter than you."
+		''' */
+	// TinCan.Tooltip: Simple metal can
+	/* TitaniumMask.AniseForestHelmetDesc:
+		'''
+		Increases Endless Thrower damage by 27%
+		Increases Endless Thrower critical strike chance by 15%
+		''' */
+	/* VenomGun.VenomGunDesc:
+		'''
+		Shoots acidic poisonous slime.
+		Inflicts Acid Venom for 60 seconds.
+		''' */
+	// WeekPlasmaSword.Description: A sword made of weak plasma could melt you at the first touch. Particles of calamity keep its heat in check.
+}
+
+// "Keybinds.Deep Sea Dash.DisplayName": Deep  Sea  Dash
+
+Achievements: {
+	AnimalsSaver: {
+		// FriendlyName: Animals saver!
+		// Description: Reach exactly 5 GoodNature points.
+	}
+
+	Orbit: {
+		// FriendlyName: Orbit!
+		// Description: Craft all Orbital Yoyo items.
+	}
+
+	ForestGuard: {
+		// FriendlyName: Forest Guard
+		// Description: Defeat Anise King Slime.
+	}
+}

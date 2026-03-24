@@ -30,7 +30,7 @@ namespace Etobudet1modtipo.Projectiles
             if (!initialized)
             {
 
-                Projectile.damage = 0;
+                Projectile.damage = 1;
                 initialized = true;
             }
 

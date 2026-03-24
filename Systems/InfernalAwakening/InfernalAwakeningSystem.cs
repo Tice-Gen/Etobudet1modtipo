@@ -13,6 +13,7 @@ namespace Etobudet1modtipo.Systems.InfernalAwakening
         public bool InfernalActive;
         public bool SkeletronDefeated;
         public bool AniseDefeated;
+        public bool AniseKingSlimeDefeated;
 
         public override void Load()
         {
@@ -112,6 +113,7 @@ namespace Etobudet1modtipo.Systems.InfernalAwakening
             tag["InfernalActive"] = InfernalActive;
             tag["SkeletronDefeated"] = SkeletronDefeated;
             tag["AniseDefeated"] = AniseDefeated;
+            tag["AniseKingSlimeDefeated"] = AniseKingSlimeDefeated;
         }
 
         public override void LoadWorldData(TagCompound tag)
@@ -119,6 +121,7 @@ namespace Etobudet1modtipo.Systems.InfernalAwakening
             InfernalActive = tag.GetBool("InfernalActive");
             SkeletronDefeated = tag.GetBool("SkeletronDefeated");
             AniseDefeated = tag.GetBool("AniseDefeated");
+            AniseKingSlimeDefeated = tag.GetBool("AniseKingSlimeDefeated");
         }
 
         public static bool IsActive()

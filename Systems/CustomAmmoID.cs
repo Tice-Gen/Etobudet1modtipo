@@ -5,5 +5,6 @@ namespace Etobudet1modtipo.Systems
     {
 
         public const int Stone = 1044;
+        public const int DeepSeaHook = 1045;
     }
 }

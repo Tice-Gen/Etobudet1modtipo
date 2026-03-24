@@ -2,6 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
+using Etobudet1modtipo.Projectiles;
 
 namespace Etobudet1modtipo.Buffs
 {
@@ -30,6 +31,10 @@ namespace Etobudet1modtipo.Buffs
 
 
                 CombatText.NewText(npc.Hitbox, Color.Orange, damage, dramatic: false, dot: true);
+                if (npc.life <= 0)
+                {
+                    Sun.TrySpawnSunDeathEffects(npc);
+                }
                 npc.checkDead();
             }
         }

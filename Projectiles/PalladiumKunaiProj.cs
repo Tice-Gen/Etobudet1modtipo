@@ -1,6 +1,8 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Etobudet1modtipo.Common.Audio;
 using Terraria;
+using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent;
@@ -49,6 +51,8 @@ namespace Etobudet1modtipo.Projectiles
 
         public override void Kill(int timeLeft)
         {
+            PlayBrokenKunaiSound();
+
             for (int i = 0; i < 12; i++)
             {
                 int dustIndex = Dust.NewDust(
@@ -68,6 +72,19 @@ namespace Etobudet1modtipo.Projectiles
                 Main.dust[dustIndex].fadeIn = 0.8f;
                 Main.dust[dustIndex].alpha = 0;
             }
+        }
+
+        private void PlayBrokenKunaiSound()
+        {
+            SoundStyle breakSound = new SoundStyle("Etobudet1modtipo/Sounds/BrokenKunai")
+            {
+                Volume = 0.62f,
+                Pitch = 0.06f,
+                PitchVariance = 0.1f,
+                MaxInstances = 2,
+                SoundLimitBehavior = SoundLimitBehavior.IgnoreNew
+            };
+            ProjectileBreakSoundLimiter.TryPlayBrokenKunai(breakSound, Projectile.Center);
         }
     }
 }

@@ -43,7 +43,42 @@ namespace Etobudet1modtipo.items
 
         public override void ModifyTooltips(List<TooltipLine> tooltips)
         {
+            int damageLineIndex = tooltips.FindIndex(line => line.Name == "Damage" && line.Mod == "Terraria");
+            TooltipLine massiveLine = new TooltipLine(Mod, "GearaniseMassive", "-MASSIVE-")
+            {
+                OverrideColor = GetMassiveColor()
+            };
+
+            if (damageLineIndex >= 0)
+            {
+                tooltips.Insert(damageLineIndex, massiveLine);
+            }
+            else
+            {
+                tooltips.Add(massiveLine);
+            }
+
             tooltips.Add(new TooltipLine(Mod, "GearaniseDesc", Terraria.Localization.Language.GetTextValue("Mods.Etobudet1modtipo.ItemTooltips.Gearanise.GearaniseDesc")));
+        }
+
+        private static Color GetMassiveColor()
+        {
+            Color darkRed = new Color(85, 0, 0);
+            Color duskyCrimson = new Color(120, 24, 38);
+            Color duskyRed = new Color(145, 40, 40);
+
+            float t = (Main.GlobalTimeWrappedHourly * 1.9f) % 3f;
+            if (t < 1f)
+            {
+                return Color.Lerp(darkRed, duskyCrimson, t);
+            }
+
+            if (t < 2f)
+            {
+                return Color.Lerp(duskyCrimson, duskyRed, t - 1f);
+            }
+
+            return Color.Lerp(duskyRed, darkRed, t - 2f);
         }
     }
 }

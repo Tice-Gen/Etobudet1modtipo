@@ -4,7 +4,6 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Etobudet1modtipo.Classes;
 using System.Collections.Generic;
-using Microsoft.Xna.Framework;
 
 namespace Etobudet1modtipo.items
 {

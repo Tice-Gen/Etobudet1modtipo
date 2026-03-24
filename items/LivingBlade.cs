@@ -3,6 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Etobudet1modtipo.Buffs;
 using Microsoft.Xna.Framework;
+using System.Collections.Generic;
 
 namespace Etobudet1modtipo.items
 {
@@ -15,21 +16,21 @@ namespace Etobudet1modtipo.items
 
         private static readonly string[] AttackPhrases =
         {
-            "Пей их кровь!",
-            "Больше ярости, хозяин!",
-            "Ощути вкус битвы!",
-            "Слабак! Дай я покажу, как надо!",
-            "Ещё! Ещё крови!",
-            "Я живу ради этого!"
+            "Drink their blood!",
+            "More rage, master!",
+            "Taste the thrill of battle!",
+            "Weakling! Let me show you how it's done!",
+            "More! More blood!",
+            "I live for this!"
         };
 
         private static readonly string[] IdlePhrases =
         {
-            "Ты снова забыл обо мне?",
-            "Я голоден...",
-            "Когда мы снова будем убивать?",
-            "Не оставляй меня в одиночестве...",
-            "Я слышу зов крови... а ты?"
+            "Did you forget about me again?",
+            "I'm hungry...",
+            "When will we kill again?",
+            "Don't leave me alone...",
+            "I hear the call of blood... do you?"
         };
 
         public override void SetDefaults()
@@ -47,6 +48,44 @@ namespace Etobudet1modtipo.items
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;
             Item.shootSpeed = 0f;
+        }
+
+        public override void ModifyTooltips(List<TooltipLine> tooltips)
+        {
+            int damageLineIndex = tooltips.FindIndex(line => line.Name == "Damage" && line.Mod == "Terraria");
+            TooltipLine goreLine = new TooltipLine(Mod, "LivingBladeGore", "-Gore weapon-")
+            {
+                OverrideColor = GetGoreColor()
+            };
+
+            if (damageLineIndex >= 0)
+            {
+                tooltips.Insert(damageLineIndex, goreLine);
+            }
+            else
+            {
+                tooltips.Add(goreLine);
+            }
+        }
+
+        private static Color GetGoreColor()
+        {
+            Color darkRed = new Color(85, 0, 0);
+            Color duskyCrimson = new Color(120, 24, 38);
+            Color duskyRed = new Color(145, 40, 40);
+
+            float t = (Main.GlobalTimeWrappedHourly * 1.9f) % 3f;
+            if (t < 1f)
+            {
+                return Color.Lerp(darkRed, duskyCrimson, t);
+            }
+
+            if (t < 2f)
+            {
+                return Color.Lerp(duskyCrimson, duskyRed, t - 1f);
+            }
+
+            return Color.Lerp(duskyRed, darkRed, t - 2f);
         }
 
 
@@ -88,7 +127,7 @@ namespace Etobudet1modtipo.items
     if (Main.rand.NextBool(4))
     {
         Main.NewText(
-            "[Клинок]: " + AttackPhrases[Main.rand.Next(AttackPhrases.Length)],
+            "[Blade]: " + AttackPhrases[Main.rand.Next(AttackPhrases.Length)],
             Color.Red
         );
     }
@@ -139,7 +178,7 @@ namespace Etobudet1modtipo.items
                 if (player.HeldItem == Item && !player.controlUseItem)
                 {
                     string phrase = IdlePhrases[Main.rand.Next(IdlePhrases.Length)];
-                    Main.NewText("[Клинок]: " + phrase, Color.DarkRed);
+                    Main.NewText("[Blade]: " + phrase, Color.DarkRed);
                 }
 
                 idleTimer = 0;

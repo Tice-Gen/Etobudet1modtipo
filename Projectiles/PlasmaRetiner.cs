@@ -36,7 +36,7 @@ namespace Etobudet1modtipo.Projectiles
         public override void AI()
         {
             Player player = Main.player[Projectile.owner];
-            float velocitySpeed = 15f; 
+            float velocitySpeed = 15f;
 
             if (!player.active || player.dead || player.noItems || player.CCed)
             {
@@ -44,17 +44,14 @@ namespace Etobudet1modtipo.Projectiles
                 return;
             }
 
+            Vector2 toCursor = Main.MouseWorld - player.MountedCenter;
+            Vector2 aimDir = toCursor.SafeNormalize(Vector2.UnitX * player.direction);
+
             if (Main.myPlayer == Projectile.owner)
             {
                 if (player.channel && !player.noItems && !player.CCed)
                 {
-                    Vector2 toMouse = Main.MouseWorld - player.Center;
-                    toMouse.Normalize();
-
-                    if (toMouse.HasNaNs())
-                        toMouse = Vector2.UnitX * player.direction;
-
-                    Projectile.velocity = Vector2.Lerp(Projectile.velocity, toMouse * velocitySpeed, 0.15f);
+                    Projectile.velocity = Vector2.Lerp(Projectile.velocity, aimDir * velocitySpeed, 0.25f);
                     Projectile.netUpdate = true;
                 }
                 else
@@ -64,17 +61,19 @@ namespace Etobudet1modtipo.Projectiles
                 }
             }
 
-            Vector2 toCursor = Main.MouseWorld - player.Center;
-            Vector2 dir = toCursor.SafeNormalize(Vector2.UnitX);
-            Projectile.Center = player.Center + dir * 10f + new Vector2(0f, 4f);
-            Projectile.rotation = toCursor.ToRotation();
-            Projectile.spriteDirection = toCursor.X >= 0 ? 1 : -1;
+            Projectile.Center = player.MountedCenter + aimDir * 4f;
+            Projectile.rotation = aimDir.ToRotation();
+            Projectile.spriteDirection = aimDir.X >= 0f ? 1 : -1;
             player.ChangeDir(Projectile.spriteDirection);
-            
+
             player.heldProj = Projectile.whoAmI;
             player.itemTime = 2;
             player.itemAnimation = 2;
-            player.itemRotation = (Projectile.velocity * player.direction).ToRotation();
+
+            float itemRot = Projectile.rotation;
+            if (Projectile.spriteDirection == -1)
+                itemRot += MathHelper.Pi;
+            player.itemRotation = MathHelper.WrapAngle(itemRot);
 
             if (Projectile.ai[0] % 16 == 0)
             {
@@ -102,22 +101,17 @@ namespace Etobudet1modtipo.Projectiles
                 if (projTypeToShoot != 0)
                 {
                     float baseSpeed = 8f;
-                    float speedMultiplier = 2.0f; 
+                    float speedMultiplier = 2.0f;
+                    Vector2 shootDir = Projectile.velocity.SafeNormalize(aimDir);
+                    Vector2 shootPos = player.MountedCenter;
 
-                    Vector2 shootVel = Projectile.velocity;
-                    if (shootVel == Vector2.Zero)
-                        shootVel = toCursor.SafeNormalize(Vector2.UnitY);
-                    else
-                        shootVel = shootVel.SafeNormalize(Vector2.Zero);
-
-
-                    shootVel = shootVel.RotatedByRandom(MathHelper.ToRadians(9));
+                    Vector2 shootVel = shootDir.RotatedByRandom(MathHelper.ToRadians(9));
                     shootVel *= baseSpeed * speedMultiplier;
 
 
                     Projectile.NewProjectile(
                         Projectile.GetSource_FromThis(),
-                        Projectile.Center,
+                        shootPos,
                         shootVel,
                         projTypeToShoot,
                         Projectile.damage, 

@@ -214,13 +214,12 @@ namespace Etobudet1modtipo.Projectiles
             int spentPoints = ShroomyoInfectionGlobalNPC.ConsumeOneInfectionFromAllNPCs();
             if (spentPoints <= 0)
             {
-                Main.NewText("Нет зараженных целей для усиления Shroomyo.", Color.LightGray);
+                Main.NewText("There are no infected targets to empower Shroomyo.", Color.LightGray);
                 return;
             }
 
             shroomyoPlayer.ActivateEmpower(Projectile);
-            CombatText.NewText(Main.player[Projectile.owner].Hitbox, new Color(170, 255, 170), "Shroomyo усилен +15%");
-            Main.NewText($"Shroomyo усилен на 15% (потрачено очков: {spentPoints})", new Color(170, 255, 170));
+            CombatText.NewText(Main.player[Projectile.owner].Hitbox, new Color(170, 255, 170), "Shroomyo empowered +15%");
         }
     }
 }

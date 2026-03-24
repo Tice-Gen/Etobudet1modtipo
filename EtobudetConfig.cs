@@ -9,7 +9,7 @@ namespace Etobudet1modtipo
         public override ConfigScope Mode => ConfigScope.ClientSide;
 
 
-        [Header("НастройкиКрафта")] 
+        [Header("CraftSettings")] 
         
 
         [Label("Logical, more complex recipes")]

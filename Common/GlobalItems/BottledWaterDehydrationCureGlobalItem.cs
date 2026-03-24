@@ -40,10 +40,9 @@ namespace Etobudet1modtipo.Common.GlobalItems
 
 
             string name = (item.Name ?? string.Empty).ToLowerInvariant();
-            return name.Contains("хоха-кола") ||
-                   name.Contains("хоха кола") ||
-                   name.Contains("крем сода") ||
-                   name.Contains("крем-сода");
+            return name.Contains("cola") ||
+                   name.Contains("cream soda") ||
+                   name.Contains("cream-soda");
         }
     }
 }

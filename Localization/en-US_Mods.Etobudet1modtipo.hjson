@@ -2,6 +2,25 @@ Mods: {
 	Etobudet1modtipo: {
 		NPCs.EyeOfCalamity.DisplayName: Eye of Calamity
 		CreatingSeaSalt: Seeding Sea Salt...
+
+		Achievements: {
+			AnimalsSaver: {
+				DisplayName: Animals saver!
+				Description: Reach exactly 5 GoodNature points.
+			}
+
+			Orbit: {
+				DisplayName: Orbit!
+				Description: Craft all Orbital Yoyo items.
+			}
+
+			ForestGuard: {
+				DisplayName: Forest Guard
+				Description: Defeat Anise King Slime.
+			}
+		}
+
+		Bestiary.JellyFish: A peaceful jellyfish. If stranded, it desperately hops toward water. A little help from a Water Gun can save its life.
 	}
 }
 
@@ -48,11 +67,6 @@ Items: {
 
 	ProphecyBlade: {
 		DisplayName: Prophecy Blade
-		Tooltip: ""
-	}
-
-	PoisonKnife: {
-		DisplayName: Poison Knife
 		Tooltip: ""
 	}
 
@@ -159,6 +173,11 @@ Items: {
 	PoisonKnifeStorm: {
 		DisplayName: Poison Knife Storm
 		Tooltip: ""
+	}
+
+	PoisonKnife: {
+		Tooltip: ""
+		DisplayName: Poison Knife
 	}
 
 	EndlessThrowerBreastplate: {
@@ -735,6 +754,191 @@ Items: {
 		DisplayName: Shroomyo
 		Tooltip: ""
 	}
+
+	Doubow: {
+		DisplayName: Doubow
+		Tooltip: ""
+	}
+
+	TripleBow: {
+		DisplayName: Triple Bow
+		Tooltip: ""
+	}
+
+	ScorchedEarthItem: {
+		DisplayName: Scorched Earth Item
+		Tooltip: ""
+	}
+
+	ScorchedEarth: {
+		Tooltip: ""
+		DisplayName: Scorched Earth
+	}
+
+	Astranise: {
+		DisplayName: Astranise
+		Tooltip: ""
+	}
+
+	WormBait: {
+		Tooltip: ""
+		DisplayName: Worm Bait
+	}
+
+	Hook: {
+		DisplayName: Hook
+		Tooltip: ""
+	}
+
+	DeepSeaCutter: {
+		DisplayName: Deep Sea Cutter
+		Tooltip: ""
+	}
+
+	DeepSeaRifle: {
+		DisplayName: Deep Sea Rifle
+		Tooltip: ""
+	}
+
+	DeepSeaBar: {
+		DisplayName: Deep Sea Bar
+		Tooltip: ""
+	}
+
+	DeepSeaStone: {
+		DisplayName: Deep Sea Stone
+		Tooltip: ""
+	}
+
+	DeepSeaHook: {
+		Tooltip: ""
+		DisplayName: Deep Sea Hook
+	}
+
+	DeepSeaHelmet: {
+		Tooltip: ""
+		DisplayName: Deep Sea Helmet
+	}
+
+	DeepSeaBreastplate: {
+		DisplayName: Deep Sea Breastplate
+		Tooltip: ""
+	}
+
+	DeepSeaLeggings: {
+		DisplayName: Deep Sea Leggings
+		Tooltip: ""
+	}
+
+	DeepSeaYoyo: {
+		DisplayName: Deep Sea Yoyo
+		Tooltip: ""
+	}
+
+	OtherWatersBeacon: {
+		DisplayName: Other Waters Beacon
+		Tooltip: ""
+	}
+
+	OmegaShark: {
+		DisplayName: Omega Shark
+		Tooltip: ""
+	}
+
+	DeepSeaHammer: {
+		Tooltip: ""
+		DisplayName: Deep Sea Hammer
+	}
+
+	DeepSeaPickaxe: {
+		DisplayName: Deep Sea Pickaxe
+		Tooltip: ""
+	}
+
+	PlanteraClaw: {
+		DisplayName: Plantera Claw
+		Tooltip: ""
+	}
+
+	VisualStudio: {
+		DisplayName: Visual Studio
+		Tooltip: ""
+	}
+
+	Fireanise: {
+		DisplayName: Fireanise
+		Tooltip: ""
+	}
+
+	TrueEnchantedSword: {
+		DisplayName: True Enchanted Sword
+		Tooltip: ""
+	}
+
+	DeepnestPlasma: {
+		DisplayName: Deepnest Plasma
+		Tooltip: ""
+	}
+
+	CosmicSandClock: {
+		DisplayName: Cosmic Sand Clock
+		Tooltip: ""
+	}
+
+	CosmicDevourer: {
+		Tooltip: ""
+		DisplayName: Cosmic Devourer
+	}
+
+	Spythe: {
+		DisplayName: Spythe
+		Tooltip: Focused into a long, narrow sweep
+	}
+
+	SpaceFragment: {
+		DisplayName: Space Fragment
+		Tooltip: ""
+	}
+
+	GoldenLine: {
+		DisplayName: Golden Line
+		Tooltip: ""
+	}
+
+	PlatinumLine: {
+		DisplayName: Platinum Line
+		Tooltip: ""
+	}
+
+	MegaTrap: {
+		DisplayName: Mega Trap
+		Tooltip: ""
+	}
+
+	BandOfCold: {
+		Tooltip: ""
+		DisplayName: Band Of Cold
+	}
+
+	BandOfWarm: {
+		DisplayName: Band Of Warm
+		Tooltip: ""
+	}
+
+	UshankaHat: {
+		DisplayName: Ushanka Hat
+		Tooltip: ""
+	}
+
+	IndastrilCooler: {
+		DisplayName: Indastril Cooler
+		Tooltip: ""
+	}
+
+	Fan: {
+		DisplayName: Fan
+		Tooltip: ""
+	}
 }
 
 NPCs: {
@@ -755,6 +959,13 @@ NPCs: {
 	TheHungriest.DisplayName: The Hungriest
 	SL_KING.DisplayName: SL_ KING
 	Statue.DisplayName: Statue
+	FishMob.DisplayName: Fish Mob
+	DeepSeaUrchin.DisplayName: Deep Sea Urchin
+	LampShark.DisplayName: Lamp Shark
+	LavaShark.DisplayName: Lava Shark
+	LongWorm.DisplayName: Long Worm
+	JellyFish.DisplayName: Jelly Fish
+	Astraclysm.DisplayName: Astraclysm
 }
 
 Projectiles: {
@@ -856,6 +1067,50 @@ Projectiles: {
 	HallowedYoyoProj.DisplayName: Hallowed Yoyo Proj
 	Moonyo.DisplayName: Moonyo
 	ShroomyoProj.DisplayName: Shroomyo Proj
+	AstraniseProj.DisplayName: Astranise Proj
+	AstraniseShard.DisplayName: Astranise Shard
+	DeepSeaProj.DisplayName: Deep Sea Proj
+	DeepSeaPressure.DisplayName: Deep Sea Pressure
+	DeepSeaPressureParticle.DisplayName: Deep Sea Pressure Particle
+	DeepGarp.DisplayName: Deep Garp
+	FishMobHostileShot.DisplayName: Fish Mob Hostile Shot
+	DeepSeaYoyoProj.DisplayName: Deep Sea Yoyo Proj
+	DeepSeaHammerProj.DisplayName: Deep Sea Hammer Proj
+	VisualStudioCode.DisplayName: Visual Studio Code
+	DeepShard.DisplayName: Deep Shard
+	DeepShard1.DisplayName: Deep Shard1
+	DeepShard2.DisplayName: Deep Shard2
+	DeepShard3.DisplayName: Deep Shard3
+	DeepShard4.DisplayName: Deep Shard4
+	DeepSeaYoyoComponent.DisplayName: Deep Sea Yoyo Component
+	DeepShardBlastGlow.DisplayName: Deep Shard Blast Glow
+	DeepSeaExplotion.DisplayName: Deep Sea Explotion
+	Noisolpxe.DisplayName: Noisolpxe
+	Noisolpxeanise.DisplayName: Noisolpxeanise
+	Effect.DisplayName: Effect
+	TrueEnchantedSwordProj.DisplayName: True Enchanted Sword Proj
+	WeekPlasmaSwingProjectile.DisplayName: Week Plasma Swing Projectile
+	WeekPlasmaWave.DisplayName: Week Plasma Wave
+	WeekPlasmaPulse.DisplayName: Week Plasma Pulse
+	BlueExpl.DisplayName: Blue Expl
+	AstralStone2.DisplayName: Astral Stone2
+	AstralStone.DisplayName: Astral Stone
+	CosmicKunai.DisplayName: Cosmic Kunai
+	CosmicShard.DisplayName: Cosmic Shard
+	CosmalFire.DisplayName: Cosmal Fire
+	CosmolFire.DisplayName: Cosmol Fire
+	CosmicDevourerSwingProjectile.DisplayName: Cosmic Devourer Swing Projectile
+	SpytheSwingProjectile.DisplayName: Spythe Swing Projectile
+	GoldenShard.DisplayName: Golden Shard
+	GoldenYoyo.DisplayName: Golden Yoyo
+	PlatinumShard.DisplayName: Platinum Shard
+	PlatinumYoyo.DisplayName: Platinum Yoyo
+	SpytheNoiseOrbProjectile.DisplayName: Spythe Noise Orb Projectile
+	SpytheDeathSlashEffect.DisplayName: Spythe Death Slash Effect
+	TrapDart.DisplayName: Trap Dart
+	Cooler.DisplayName: Cooler
+	FanCooler.DisplayName: Fan Cooler
+	SunFlowerLeaf.DisplayName: Sun Flower Leaf
 }
 
 DamageClasses.EndlessThrower.DisplayName: Endless Thrower
@@ -911,8 +1166,8 @@ Buffs: {
 		DisplayName: Surface Of The Sun
 	}
 
-	SevereСuts: {
-		DisplayName: SevereСuts
+	SevereCuts: {
+		DisplayName: Severe Cuts
 		Description: An incredible number of cuts.
 	}
 
@@ -935,6 +1190,31 @@ Buffs: {
 		DisplayName: Salty Food Bonus
 		Description: Food stat bonuses are 3% stronger.
 	}
+
+	Pressure: {
+		DisplayName: Pressure
+		Description: Mods.Etobudet1modtipo.Buffs.Pressure.Description
+	}
+
+	VisualStudioBuff: {
+		Description: Summons a tiny Visual Studio Code companion.
+		DisplayName: Visual Studio Buff
+	}
+
+	CosmolFire: {
+		Description: Mods.Etobudet1modtipo.Buffs.CosmolFire.Description
+		DisplayName: Cosmol Fire
+	}
+
+	ColdExposure: {
+		DisplayName: Cold Exposure
+		Description: Mods.Etobudet1modtipo.Buffs.ColdExposure.Description
+	}
+
+	HeatExposure: {
+		DisplayName: Heat Exposure
+		Description: Mods.Etobudet1modtipo.Buffs.HeatExposure.Description
+	}
 }
 
 Biomes: {
@@ -946,6 +1226,21 @@ Biomes: {
 	MistyCaveBiome: {
 		DisplayName: Misty Cave Biome
 		TownNPCDialogueName: the Misty Cave Biome
+	}
+
+	TheBottomOfTheAbyssOfRockyWaterOfTheGreatOcean: {
+		TownNPCDialogueName: the The Bottom Of The Abyss Of Rocky Water Of The Great Ocean
+		DisplayName: The Bottom Of The Abyss Of Rocky Water Of The Great Ocean
+	}
+
+	ShallowRockWaters: {
+		TownNPCDialogueName: the Shallow Rock Waters
+		DisplayName: Shallow Rock Waters
+	}
+
+	DeepRockyWatersOfOtherWaters: {
+		TownNPCDialogueName: the Deep Rocky Waters Of Other Waters
+		DisplayName: Deep Rocky Waters Of Other Waters
 	}
 }
 
@@ -963,7 +1258,7 @@ Configs: {
 
 		Headers: {
 			$parentVal: Recipe changes Header
-			НастройкиКрафта: Craft settings Header
+			CraftSettings: Craft settings header
 		}
 
 		UseHarderRecipes: {
@@ -988,6 +1283,14 @@ ItemTooltips: {
 			'''
 		Damage: Airstrike damage
 	}
+
+	OmegaShark.Tooltip:
+		'''
+		Fires burning rounds
+		Each shot speeds up fire rate (36 -> 2 use time)
+		Completely ignores enemy armor
+		At max fire rate, overheats after 5 seconds
+		'''
 
 	SaltyFood: {
 		Bonus:
@@ -1236,4 +1539,23 @@ ItemTooltips: {
 		Inflicts Acid Venom for 60 seconds.
 		'''
 	WeekPlasmaSword.Description: A sword made of weak plasma could melt you at the first touch. Particles of calamity keep its heat in check.
+}
+
+"Keybinds.Deep Sea Dash.DisplayName": Deep  Sea  Dash
+
+Achievements: {
+	AnimalsSaver: {
+		FriendlyName: Animals saver!
+		Description: Reach exactly 5 GoodNature points.
+	}
+
+	Orbit: {
+		FriendlyName: Orbit!
+		Description: Craft all Orbital Yoyo items.
+	}
+
+	ForestGuard: {
+		FriendlyName: Forest Guard
+		Description: Defeat Anise King Slime.
+	}
 }

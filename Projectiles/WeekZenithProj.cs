@@ -1,6 +1,8 @@
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using Terraria.Audio;
+using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -10,7 +12,8 @@ namespace Etobudet1modtipo.Projectiles
     {
         public override void SetStaticDefaults()
         {
-
+            ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;
+            ProjectileID.Sets.TrailingMode[Projectile.type] = 2;
 
         }
 
@@ -23,7 +26,7 @@ namespace Etobudet1modtipo.Projectiles
             Projectile.penetrate = -1;
             Projectile.DamageType = DamageClass.Melee;
             Projectile.ignoreWater = true;
-            Projectile.tileCollide = true;
+            Projectile.tileCollide = false;
             Projectile.timeLeft = 600;
         }
 
@@ -38,6 +41,39 @@ namespace Etobudet1modtipo.Projectiles
                 Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.Blood, 
                     Projectile.velocity.X * 0.2f, Projectile.velocity.Y * 0.2f, 120, default, 1.1f);
             }
+        }
+
+        public override bool PreDraw(ref Color lightColor)
+        {
+            Texture2D texture = TextureAssets.Projectile[Projectile.type].Value;
+            Vector2 drawOrigin = new Vector2(texture.Width * 0.5f, texture.Height * 0.5f);
+
+            for (int i = 0; i < Projectile.oldPos.Length; i++)
+            {
+                if (Projectile.oldPos[i] == Vector2.Zero)
+                {
+                    continue;
+                }
+
+                float progress = (Projectile.oldPos.Length - i) / (float)Projectile.oldPos.Length;
+                Vector2 drawPos = Projectile.oldPos[i] + Projectile.Size * 0.5f - Main.screenPosition;
+                Color trailColor = new Color(235, 40, 40, 0) * (0.45f * progress);
+                float trailScale = Projectile.scale * (0.85f + progress * 0.25f);
+
+                Main.EntitySpriteDraw(
+                    texture,
+                    drawPos,
+                    null,
+                    trailColor,
+                    Projectile.oldRot[i],
+                    drawOrigin,
+                    trailScale,
+                    SpriteEffects.None,
+                    0
+                );
+            }
+
+            return true;
         }
 
         public override void OnKill(int timeLeft)

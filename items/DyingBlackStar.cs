@@ -61,13 +61,13 @@ namespace Etobudet1modtipo.items
         private async void HandleBossSummon(Player player)
         {
             await Task.Delay(5000);
-            Main.NewText("[?!?] Грядёт ваш кошмар…", 128, 128, 128);
+            Main.NewText("[?!?] Your nightmare is coming...", 128, 128, 128);
 
             await Task.Delay(10000);
-            Main.NewText("[?!?] Воздух становится чистым…", 128, 128, 128);
+            Main.NewText("[?!?] The air is becoming clear...", 128, 128, 128);
 
             await Task.Delay(5000);
-            Main.NewText("[?!?] …и пустым", 128, 128, 128);
+            Main.NewText("[?!?] ...and empty", 128, 128, 128);
 
             await Task.Delay(10000);
 

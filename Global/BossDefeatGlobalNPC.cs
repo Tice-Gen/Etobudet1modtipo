@@ -30,6 +30,8 @@ namespace Etobudet1modtipo.Global
             int aniseType = ModContent.NPCType<AniseKingSlime>();
             if (npc.type == aniseType)
             {
+                infernal.AniseKingSlimeDefeated = true;
+
                 if (!infernal.AniseDefeated)
                 {
                     infernal.AniseDefeated = true;

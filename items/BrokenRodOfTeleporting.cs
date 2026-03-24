@@ -42,7 +42,7 @@ namespace Etobudet1modtipo.items
 
             if (player.HasBuff(ModContent.BuffType<BrokenRodCooldown>()))
             {
-                Main.NewText("Жезл перезаряжается!", Color.Yellow);
+                Main.NewText("The rod is recharging!", Color.Yellow);
                 return false;
             }
             

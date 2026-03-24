@@ -289,11 +289,13 @@ namespace Etobudet1modtipo.NPCs
 {
     var system = InfernalAwakeningSystem.Instance;
 
-    if (system == null)
-        return;
+	    if (system == null)
+	        return;
 
-    if (!system.AniseDefeated)
-    {
+	    system.AniseKingSlimeDefeated = true;
+
+	    if (!system.AniseDefeated)
+	    {
         system.AniseDefeated = true;
         system.TryActivateInfernal();
     }

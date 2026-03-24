@@ -1,0 +1,33 @@
+Mods: {
+	Etobudet1modtipo: {
+		Buffs: {
+			ColdExposure: {
+				DisplayName: Cold Exposure
+				Description: The cold slows you down and weakens your body.
+			}
+
+			HeatExposure: {
+				DisplayName: Heat Exposure
+				Description: Overheating drains your strength and focus.
+			}
+		}
+
+		UI: {
+			Temperature: {
+				Label: Temperature
+				ArmorCool: Lowers body temperature by {0}C while worn
+				ArmorWarm: Raises body temperature by {0}C while worn
+				TooltipCool: Lowers body temperature by {0}C for {1}
+				TooltipWarm: Raises body temperature by {0}C for {1}
+
+				Status: {
+					Safe: Stable
+					ColdWarning: Chilly
+					Freezing: Freezing
+					HotWarning: Overheating
+					Overheated: Heatstroke
+				}
+			}
+		}
+	}
+}

@@ -78,7 +78,7 @@ namespace Etobudet1modtipo.NPCs
                     damageTimer = 0;
 
                     if (Main.netMode != NetmodeID.Server)
-                        Main.NewText("Глаз Бедствия впадает в ярость!", 200, 50, 50);
+                        Main.NewText("The Eye of Calamity is enraged!", 200, 50, 50);
                 }
             }
             else

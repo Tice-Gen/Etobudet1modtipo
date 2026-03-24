@@ -3,6 +3,7 @@ using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Etobudet1modtipo.Buffs;
 using Etobudet1modtipo.items;
 
 namespace Etobudet1modtipo.NPCs
@@ -62,6 +63,7 @@ namespace Etobudet1modtipo.NPCs
 
             for (int i = 0; i < NPC.buffImmune.Length; i++)
                 NPC.buffImmune[i] = true;
+            NPC.buffImmune[ModContent.BuffType<Pressure>()] = false;
 
             Music = MusicLoader.GetMusicSlot(Mod, "Sounds/Music/TheEndTheme");
         }
